@@ -1,1 +1,1 @@
-# icote_study
+# cote_study
