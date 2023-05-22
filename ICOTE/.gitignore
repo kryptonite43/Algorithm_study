@@ -1,0 +1,6 @@
+# Ignore all .exe files
+*.exe
+../CodeUp
+input.txt
+# Allow .cpp files in the current directory
+!*.cpp
