@@ -1,6 +1,6 @@
 # Ignore all .exe files
 *.exe
-../CodeUp
 input.txt
+*.json
 # Allow .cpp files in the current directory
 !*.cpp
