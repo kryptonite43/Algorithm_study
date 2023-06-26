@@ -14,8 +14,8 @@ int main() {
                 string h = to_string(i);
                 string m = to_string(j);
                 string s = to_string(k);
-                
-                if (h.find('3')!=string::npos || m.find('3')!=string::npos || s.find('3')!=string::npos) {
+                string sum = h+m+s;
+                if (sum.find('3')!=string::npos) {
                     cnt++;
                 } 
             }
