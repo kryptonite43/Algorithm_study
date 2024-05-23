@@ -1,8 +1,8 @@
-# Ignore all .exe files
+
 *.exe
 input.txt
 output.txt
 *.json
 # Allow .cpp files in the current directory
 !*.cpp
- 
+ CodingTest/
