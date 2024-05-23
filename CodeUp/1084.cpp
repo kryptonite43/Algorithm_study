@@ -17,4 +17,4 @@ int main() {
     printf("%d", cnt);
     printf("\n\n");
     return 0;
-}
+} 

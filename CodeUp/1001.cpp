@@ -6,4 +6,4 @@ int main() {
     freopen("input.txt","r", stdin);
     printf("Hello\n");
     return 0;
-}
+} 
