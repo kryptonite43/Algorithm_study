@@ -1,16 +1,16 @@
-## ?•Œê³ ë¦¬ì¦? ?…¸?Š¸
-- c++ ?žë£Œí˜• ë²”ìœ„
-    - int: ????žµ 21?–µ
+## ¾Ë°í¸®Áò ³ëÆ®
+- c++ ÀÚ·áÇü ¹üÀ§
+    - int: ´ë·« 21¾ï
     - long long: 2^63
 
 
 ---
-### ?‚¤ ?„¸?Œ…
-- `Ctrl + K + F`: ?„ ?ƒ?•œ ë¶?ë¶? ?ž?™ ? •? ¬
-- `Alt + Shift + A`: ë¸”ë¡ ì£¼ì„
-- `Ctrl + Alt + C`: ë¹Œë“œ
-- `Ctrl + Alt + R`: ?‹¤?–‰
+### Å° ¼¼ÆÃ
+- `Ctrl + K + F`: ¼±ÅÃÇÑ ºÎºÐ ÀÚµ¿ Á¤·Ä
+- `Alt + Shift + A`: ºí·Ï ÁÖ¼®
+- `Ctrl + Alt + C`: ºôµå
+- `Ctrl + Alt + R`: ½ÇÇà
 
-### ì°¸ê³ 
-- [vscode?—?„œ c++ ì½”ë”© ?™˜ê²? êµ¬ì¶•](https://velog.io/@youhyeoneee/%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-VS-Code-%EC%97%90%EC%84%9C-CC-%EC%BD%94%EB%94%A9-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-Windows)
-- ?•œê¸? ê¹¨ì§ ?•´ê²?: ?¸ì½”ë”© ë°©ì‹ `UTF-8` -> `EUC-KR` ë¡? ë³?ê²? 
+### Âü°í
+- [vscode¿¡¼­ c++ ÄÚµù È¯°æ ±¸Ãà](https://velog.io/@youhyeoneee/%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-VS-Code-%EC%97%90%EC%84%9C-CC-%EC%BD%94%EB%94%A9-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-Windows)
+- ÇÑ±Û ±úÁü ÇØ°á: ÀÎÄÚµù ¹æ½Ä `UTF-8` -> `EUC-KR` ·Î º¯°æ 
