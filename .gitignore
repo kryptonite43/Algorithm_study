@@ -5,4 +5,5 @@ output.txt
 *.json
 # Allow .cpp files in the current directory
 !*.cpp
+anstest.cpp
 CodingTest/
