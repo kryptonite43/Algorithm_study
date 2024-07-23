@@ -3,7 +3,10 @@
     - int: 대략 21억
     - long long: 2^63
 
-
+- 시간 복잡도 계산
+    - 1초에 약 1억 번으로 판단
+    - ex. n = 5000: $$O(n^2)$$, n = 200,000: $$O(nlogn)$$
+    ![](image.png)
 ---
 ### [c++ 코드 참고](https://github.com/ndb796/python-for-coding-test/blob/master/README.md)
 
