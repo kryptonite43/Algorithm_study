@@ -1,27 +1,27 @@
-## ¾Ë°í¸®Áò ³ëÆ®
-- c++ ÀÚ·áÇü ¹üÀ§
-    - int: ´ë·« 21¾ï
+## ì•Œê³ ë¦¬ì¦˜ ë…¸íŠ¸
+- c++ ìžë£Œí˜• ë²”ìœ„
+    - int: ëŒ€ëžµ 21ì–µ
     - long long: 2^63
 
-- ½Ã°£ º¹Àâµµ °è»ê
-    - 1ÃÊ¿¡ ¾à 1¾ï ¹øÀ¸·Î ÆÇ´Ü
-    - ex. n = 5000: $$O(n^2)$$, n = 200,000: $$O(nlogn)$$
-    ![](image.png)
+- ì‹œê°„ ë³µìž¡ë„ ê³„ì‚°
+    - 1ì´ˆì— ì•½ 1ì–µ ë²ˆìœ¼ë¡œ íŒë‹¨
+    - ex. n = 5000: O(n^2), n = 200,000: O(nlogn)
 ---
-### [c++ ÄÚµå Âü°í](https://github.com/ndb796/python-for-coding-test/blob/master/README.md)
+### [c++ ì½”ë“œ ì°¸ê³ ](https://github.com/ndb796/python-for-coding-test/blob/master/README.md)
 
-### Å° ¼¼ÆÃ
-- `Ctrl + K + F`: ¼±ÅÃÇÑ ºÎºÐ ÀÚµ¿ Á¤·Ä
-- `Alt + Shift + A`: ºí·Ï ÁÖ¼®
-- `Ctrl + Alt + C`: ºôµå
-- `Ctrl + Alt + R`: ½ÇÇà
+### í‚¤ ì„¸íŒ…
+- `Ctrl + K + F`: ì„ íƒí•œ ë¶€ë¶„ ìžë™ ì •ë ¬
+- `Alt + Shift + A`: ë¸”ë¡ ì£¼ì„
+- `Ctrl + Alt + C`: ë¹Œë“œ
+- `Ctrl + Alt + R`: ì‹¤í–‰
 
-### ÄÚµå ½º´ÏÆê º¯°æ
-- File - Preferences - Configure User Snippets - cpp.json ÆÄÀÏ ÆíÁý
+### ì½”ë“œ ìŠ¤ë‹ˆíŽ« ë³€ê²½
+- File - Preferences - Configure User Snippets - cpp.json íŒŒì¼ íŽ¸ì§‘
 
-### Å° ¹ÙÀÎµù º¯°æ
+### í‚¤ ë°”ì¸ë”© ë³€ê²½
 - [Keyboard Shortcuts](https://pybasall.tistory.com/353)
 
-### Âü°í
-- [vscode¿¡¼­ c++ ÄÚµù È¯°æ ±¸Ãà](https://velog.io/@youhyeoneee/%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-VS-Code-%EC%97%90%EC%84%9C-CC-%EC%BD%94%EB%94%A9-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-Windows)
-- ÇÑ±Û ±úÁü ÇØ°á: ÀÎÄÚµù ¹æ½Ä `UTF-8` -> `EUC-KR` ·Î º¯°æ 
+### ì°¸ê³ 
+- [vscodeì—ì„œ c++ ì½”ë”© í™˜ê²½ êµ¬ì¶•](https://velog.io/@youhyeoneee/%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-VS-Code-%EC%97%90%EC%84%9C-CC-%EC%BD%94%EB%94%A9-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-Windows)
+- í•œê¸€ ê¹¨ì§ í•´ê²°: ì¸ì½”ë”© ë°©ì‹ `UTF-8` -> `EUC-KR` ë¡œ ë³€ê²½
+- ![í™”ë©´ ìº¡ì²˜ 2024-07-23 170255](https://github.com/user-attachments/assets/4cc1ef6c-77af-4aba-8a1c-1fa8a0db155f)    
