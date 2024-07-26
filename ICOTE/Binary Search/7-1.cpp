@@ -1,4 +1,4 @@
-// <2> ½ÇÀü ¹®Á¦ - ºÎÇ° Ã£±â
+// <2> ì‹¤ì „ ë¬¸ì œ - ë¶€í’ˆ ì°¾ê¸°
 #include <iostream>
 #include <cstdio>
 #include <algorithm>
