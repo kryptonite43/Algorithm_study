@@ -1,4 +1,3 @@
-
 *.exe
 input.txt
 output.txt
@@ -7,10 +6,10 @@ output.txt
 !*.cpp
 anstest.cpp
 CodingTest/
-codintTestJavaBook/out/
-codintTestJavaBook/.idea/
-codintTestJavaBook/codingTestJavaBook.iml
-codintTestJavaBook/SolutionTemplate.java
+codingTestJavaBook/out/
+codingTestJavaBook/.idea/
+codingTestJavaBook/codingTestJavaBook.iml
+codingTestJavaBook/SolutionTemplate.java
 cotestudy.iml
 .idea/
 .vscode/
