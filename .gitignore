@@ -7,3 +7,10 @@ output.txt
 !*.cpp
 anstest.cpp
 CodingTest/
+codintTestJavaBook/out/
+codintTestJavaBook/.idea/
+codintTestJavaBook/codingTestJavaBook.iml
+codintTestJavaBook/SolutionTemplate.java
+cotestudy.iml
+.idea/
+.vscode/
