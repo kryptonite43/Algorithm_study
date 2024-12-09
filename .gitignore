@@ -6,15 +6,9 @@ output.txt
 !*.cpp
 anstest.cpp
 CodingTest/
-codingTestJavaBook/out
-codingTestJavaBook/.idea
-codingTestJavaBook/codingTestJavaBook.iml
-codingTestJavaBook/SolutionTemplate.java
 cotestudy.iml
 .idea/
 .vscode/!/codingTestJavaBook/.idea/
 !/codingTestJavaBook/out/production/codingTestJavaBook/
-!/codingTestJavaBook/codingTestJavaBook.iml
-!/codingTestJavaBook/SolutionTemplate.java
 !/codingTestJavaBook/codingTestJavaBook.iml
 !/codingTestJavaBook/SolutionTemplate.java
