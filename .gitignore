@@ -12,4 +12,7 @@ codingTestJavaBook/codingTestJavaBook.iml
 codingTestJavaBook/SolutionTemplate.java
 cotestudy.iml
 .idea/
-.vscode/
+.vscode/!/codingTestJavaBook/.idea/
+!/codingTestJavaBook/out/production/codingTestJavaBook/
+!/codingTestJavaBook/codingTestJavaBook.iml
+!/codingTestJavaBook/SolutionTemplate.java
