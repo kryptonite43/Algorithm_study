@@ -8,7 +8,7 @@ CodingTest/
 cotestudy.iml
 .idea/
 .vscode/!/codingTestJavaBook/.idea/
-!/codingTestJavaBook/out/
-!/codingTestJavaBook/codingTestJavaBook.iml
-codingTestJavaBook/SolutionTemplate.java
-!/codingTestJavaBook/out/production/codingTestJavaBook/
+!/codingTest_Java/out/
+!/codingTest_Java/out/production/codingTestJavaBook/
+!/codingTest_Java/codingTestJavaBook.iml
+!/codingTest_Java/SolutionTemplate.java
