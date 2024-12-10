@@ -17,5 +17,15 @@ public class Solution02 {
         Arrays.sort(tmp, Collections.reverseOrder());
         int[] ans = Arrays.stream(tmp).mapToInt(i->i).toArray(); // mapToInt(Integer::intValue)
         return ans;
+        /* stream 없이 for문 사용하기
+        TreeSet<Integer> set = new TreeSet<>(Collections.reverseOrder());
+        for (int num: arr) {
+            set.add(num);
+        }
+        int[] result = new int[set.size()];
+        for (int i=0; i<result.length; i++) {
+            result[i] = set.pollFirst();
+        }
+        return result;*/
     }
 }
