@@ -2,13 +2,13 @@
 input.txt
 output.txt
 *.json
-# Allow .cpp files in the current directory
 !*.cpp
 anstest.cpp
 CodingTest/
 cotestudy.iml
 .idea/
 .vscode/!/codingTestJavaBook/.idea/
-!/codingTestJavaBook/out/production/codingTestJavaBook/
+!/codingTestJavaBook/out/
 !/codingTestJavaBook/codingTestJavaBook.iml
-!/codingTestJavaBook/SolutionTemplate.java
+codingTestJavaBook/SolutionTemplate.java
+!/codingTestJavaBook/out/production/codingTestJavaBook/
