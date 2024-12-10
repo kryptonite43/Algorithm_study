@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class SolutionTemplate {
 
@@ -7,6 +7,7 @@ public class SolutionTemplate {
     }
 
     private static void solution() {
+
         return;
     }
 }
