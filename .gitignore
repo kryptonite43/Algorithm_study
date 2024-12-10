@@ -3,6 +3,7 @@ input.txt
 output.txt
 *.json
 !*.cpp
+*.iml
 anstest.cpp
 CodingTest/
 cotestudy.iml
@@ -10,6 +11,4 @@ cotestudy.iml
 .vscode/!/codingTestJavaBook/.idea/
 !/codingTest_Java/out/
 !/codingTest_Java/out/production/codingTestJavaBook/
-!/codingTest_Java/codingTestJavaBook.iml
-!/codingTest_Java/SolutionTemplate.java
 !/codingTest_Java/SolutionTemplate.java
