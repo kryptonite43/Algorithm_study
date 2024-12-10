@@ -6,6 +6,7 @@ output.txt
 *.iml
 anstest.cpp
 CodingTest/
+out/
 cotestudy.iml
 codingTest_Java/SolutionTemplate.java
 .idea/
