@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+/** @noinspection ALL*/
 public class Q01_배열정렬하기 {
 
     public static void main(String[] args) {

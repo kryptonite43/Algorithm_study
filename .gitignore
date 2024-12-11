@@ -8,9 +8,6 @@ anstest.cpp
 CodingTest/
 out/
 cotestudy.iml
-codingTest_Java/SolutionTemplate.java
+CodingTest_Java/SolutionTemplate.java
 .idea/
-.vscode/!/codingTestJavaBook/.idea/
-!/codingTest_Java/out/
-!/codingTest_Java/out/production/codingTestJavaBook/
-!/codingTest_Java/SolutionTemplate.java
+.vscode/
