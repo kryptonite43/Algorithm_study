@@ -1,3 +1,4 @@
+
 /** @noinspection NonAsciiCharacters*/
 public class 배열의_평균값 {
     public static void main(String[] args) {
@@ -11,5 +12,8 @@ public class 배열의_평균값 {
             answer += x;
         }
         return answer / numbers.length;
+        /* stream 사용해서 한 줄에 끝내는 법
+        return Arrays.stream(numbers).average().orElse(0);
+        */
     }
 }
