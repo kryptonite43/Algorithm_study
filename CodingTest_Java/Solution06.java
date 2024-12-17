@@ -47,7 +47,12 @@ public class Solution06 {
             answer[index++] = (int) failRate[i][1];
         }
 
-
+        /*
+        HashMap<Integer, Double> fails = new HashMap<>(); // key: 스테이지 번호, value: 실패율
+        // 값 기준 내림차순 정렬 후 키만 배열에 담아 반환
+        return fails.entrySet().stream().sorted((o1, o2) ->
+        Double.compare(o2.getValue(), o1.getValue())).mapToInt(HashMap.Entry::getKey).toArray();
+	    */
         return answer;
     }
 
