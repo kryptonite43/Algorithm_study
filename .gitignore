@@ -11,3 +11,4 @@ cotestudy.iml
 CodingTest_Java/SolutionTemplate.java
 .idea/
 .vscode/
+!/BOJ/Main.java
