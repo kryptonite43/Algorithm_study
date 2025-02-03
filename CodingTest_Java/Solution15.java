@@ -15,12 +15,11 @@ public class Solution15 {
         }
 
         while (q.size() > 1) {
-            for (int i=1; i<=k; i++) {
+            for (int i=0; i<k-1; i++) {
                 int del = q.pollFirst();
-                if (i!=k) {
-                    q.addLast(del);
-                }
+                q.addLast(del);
             }
+            q.pollFirst();
         }
         return q.pollFirst();
         /* queue 없이 index % 이용해 풀이
