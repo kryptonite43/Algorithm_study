@@ -8,32 +8,27 @@ public class Solution16 {
         System.out.println(Arrays.toString(solution(new int[]{93, 30, 55},new int[]{1, 30, 5})));
         System.out.println(Arrays.toString(solution(new int[]{95, 90, 99, 99, 80, 99},new int[]{1, 1, 1, 1, 1, 1})));
     }
-/*    progresses	            speeds	            return
-      [93, 30, 55]	            [1, 30, 5]	        [2, 1]
-      [95, 90, 99, 99, 80, 99]	[1, 1, 1, 1, 1, 1]	[1, 3, 2]*/
+
     private static int[] solution(int[] progresses, int[] speeds) {
         int[] answer = {};
-        int count = 1, cur = 0;
         ArrayDeque<Integer> q = new ArrayDeque<>();
-        ArrayList<Integer> res = new ArrayList<>();
-
-        do {
-            for (int i = 0; i < progresses.length; i++) {
-                progresses[i] += speeds[i];
-                if (cur == i && progresses[i] >= 100) {
-                    q.push(progresses[i]);
-                    cur++;
-                }
+        List<Integer> res = new ArrayList<>();
+        for (int i=0; i<progresses.length; i++) {
+            int days = (100 - progresses[i])/speeds[i] + ((100 - progresses[i])%speeds[i] == 0?0:1);
+            q.addLast(days);
+        }
+        System.out.println(q);
+        while (!q.isEmpty()) {
+            int cnt = 0;
+            int front = q.peek();
+            while (!q.isEmpty() && front >= q.peek()) {
+                q.pollFirst();
+                cnt++;
             }
-            if (q.size() != 0) {
-                res.add(q.size());
-                q.clear();
-            }
-            count++;
-        } while (cur != progresses.length);
-
+            res.add(cnt);
+            System.out.println(q);
+        }
         answer = res.stream().mapToInt(Integer::intValue).toArray();
-
         return answer;
     }
 }
