@@ -24,31 +24,5 @@ participant	                                        completion	                 
             }
         }
         return participant[participant.length-1];
-
-        /*HashMap<String, Integer> part = new HashMap<>();
-        HashMap<String, Integer> comp = new HashMap<>();
-
-        for (String name : participant) {
-            part.put(name, part.getOrDefault(name, 0)+1);
-        }
-        for (String name : completion) {
-            comp.put(name, comp.getOrDefault(name, 0)+1);
-        }
-        if (part.values().size() == participant.length) { // 중복이 없는 경우
-            for (String name: part.keySet()) {
-                if (!comp.containsKey(name)){
-                    return name;
-                }
-            }
-        }
-        else {
-            for (String key : part.keySet()) {
-                if (part.get(key) != comp.getOrDefault(key,0)) {
-                    return key;
-                }
-            }
-        }
-
-        return null;*/
     }
 }
