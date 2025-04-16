@@ -7,7 +7,14 @@ public class SolutionTemplate {
     }
 
     private static int[] solution(int[] answer) {
+        int[] ad = new int[5];
+        ArrayList<Integer> a = new ArrayList<>();
+        ArrayList<Integer> b = new ArrayList<>(Arrays.asList());
+
+        String s = "ccc";
+        s.length();
 
         return answer;
     }
 }
+
