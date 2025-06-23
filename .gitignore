@@ -9,6 +9,7 @@ CodingTest/
 out/
 cotestudy.iml
 CodingTest_Java/SolutionTemplate.java
+Programmers/solutionTemplate.java
 .idea/
 .vscode/
 !/BOJ/Main.java
