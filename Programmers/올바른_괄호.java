@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class 올바른_괄호 {
     boolean solution(String s) {
         Stack<Character> st = new Stack<>();
         
