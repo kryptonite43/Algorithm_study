@@ -1,4 +1,12 @@
-## 알고리즘 노트
+### gitignore 적용되지 않는 경우
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+```
+
+### 알고리즘 노트
 - c++ 자료형 범위
     - int: 2^32, 대략 -21억 ~ +21억
     - long long: 2^63
