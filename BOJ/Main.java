@@ -21,10 +21,6 @@ public class Main {
         * }
         * System.out.println(sb);
         * */
-        String[] playerNames = {};
-        int x = playerNames.length;
-        int number;
-
     }
 
     public static void main(String[] args) throws Exception {
