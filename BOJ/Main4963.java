@@ -62,7 +62,6 @@ public class Main4963 {
     public static void dfs(int[] cur, int w, int h) {
         int x = cur[0];
         int y = cur[1];
-
         visited[x][y] = 1;
         for (int i=0; i<8; i++) {
             int nextx = x+mvx[i];
