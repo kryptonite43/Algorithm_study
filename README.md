@@ -5,7 +5,8 @@ git rm -r --cached .
 git add .
 git commit -m "fixed untracked files"
 ```
-
+### IntelliJ 단축키
+- 자동 정렬: `Ctrl + Shift + Alt + L`
 ### 알고리즘 노트
 - c++ 자료형 범위
     - int: 2^32, 대략 -21억 ~ +21억
