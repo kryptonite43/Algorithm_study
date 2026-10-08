@@ -24,7 +24,7 @@ public class Main {
             dir[i] = sc.next().charAt(0);
 
             switch(dir[i]) {
-                case 'L': // 5에서 시작해서 3 L 하면 5 4 3 이니까 3, 5
+                case 'L': 
                     for (int j = cur-x[i]+1; j<=cur; j++) {
                         if (color[j]!='g') {
                             white[j]++;
@@ -54,16 +54,15 @@ public class Main {
                     break;
             }
         }
-        
-        // Stream<Character> charStream = new String(charArr)
-        // .chars().mapToObj(c -> (char) c);
-        Stream<Character> charStream = new String(color).chars().mapToObj(c -> (char) c);
-        int whi = (int) new String(color).chars().mapToObj(c -> (char) c)
-                    .filter(it ->it=='w').count();
-        int bla = (int) new String(color).chars().mapToObj(c -> (char) c)
-                    .filter(it ->it=='b').count();
-        int gry = (int) new String(color).chars().mapToObj(c -> (char) c)
-                    .filter(it ->it=='g').count();
+
+        int whi = 0, bla = 0, gry = 0;
+        for (int i=0; i<200000; i++) {
+            switch(color[i]) {
+                case 'w': whi++; break;
+                case 'b': bla++; break;
+                case 'g': gry++; break;
+            }
+        }
 
         System.out.println(whi+" "+bla+" "+gry);
     }
