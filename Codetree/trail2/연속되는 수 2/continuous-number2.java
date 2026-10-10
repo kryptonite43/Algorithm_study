@@ -22,10 +22,7 @@ public class Main {
                 cnt++;
             }
         }
-        if (max == 1){
-            max = cnt;
-        }
-        
+        max = Math.max(max, cnt);
         System.out.println(max);
     }
 }
