@@ -4,6 +4,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());
         int[] a = new int[n];
 
@@ -23,6 +24,7 @@ public class Main {
             }
         }
         max = Math.max(max, cnt);
-        System.out.println(max);
+        bw.write(String.valueOf(max));
+        bw.flush();
     }
 }
