@@ -16,8 +16,6 @@ public class Main {
             }
         }
 
-        // 현재 시작점인 범위에서 동전의 개수를 저장하는 배열
-        int[][] coins = new int[n][n];
         int sum = 0, max = 0;
 
         // 부분격자의 시작점 위치: (i,j)
