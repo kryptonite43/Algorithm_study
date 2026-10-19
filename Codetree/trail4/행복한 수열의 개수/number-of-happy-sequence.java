@@ -56,14 +56,5 @@ public class Main {
         }
 
         System.out.println(ans);
-        // Please write your code here.
-        /*
-n*n 격자, arr[i][j]: 1~100
-동일한 원소 m개이상 나오는 구간
-1)왼->오
-2)위->아래
-
-수열 원소 최대 100개
-        */
     }
 }
