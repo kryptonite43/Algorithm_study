@@ -29,8 +29,7 @@ public class Main {
                     tmp[ind++] = arr[i];
                 }
             }
-            arr = new int[size-newsize];
-            arr = tmp.clone();
+            arr = tmp;
         }
 
         System.out.println(arr.length);
