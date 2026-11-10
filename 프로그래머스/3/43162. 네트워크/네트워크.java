@@ -4,30 +4,28 @@ class Solution {
     static int ntw = 0;
     static int n;
     static int[][] computers;
+    static boolean[] visited;
     
     public int solution(int n, int[][] computers) {
         this.n = n;
         this.computers = computers;
+        this. visited = new boolean[n];
         
         for (int i=0; i<n; i++) {
-            for (int j=0; j<n; j++) {
-                if (computers[i][j]==1) {
-                    dfs(i,j);
-                    ntw++;
-                }
+            if (!visited[i]) {
+                dfs(i);
+                ntw++;
             }
         }
-    
         return ntw;
     }
     
-    public static void dfs(int x, int y) {
-        computers[x][y] = 2;
-        computers[y][x] = 2;
+    public static void dfs(int x) {
+        visited[x] = true;
         
         for (int i=0; i<n; i++) {
-            if (computers[y][i]==1) {
-                dfs(y,i);
+            if (!visited[i] && computers[x][i]==1) {
+                dfs(i);
             }
         }
     }
